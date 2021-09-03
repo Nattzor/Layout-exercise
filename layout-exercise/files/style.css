@@ -1,0 +1,173 @@
+body {
+    background-color: gainsboro;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    color: gray;
+
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.home {
+    display: grid;
+    grid-template-rows: 1;
+    grid-template-columns: 3;
+}
+
+.logo {
+    grid-column: 1 / 3;
+}
+
+.quote {
+    grid-column: 10 / 10;
+    justify-content: end;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5%;
+    text-align: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+.store {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+.iphone {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.body {
+    background-color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 1rem;
+    padding-bottom: 2%;
+}
+
+.gallery1 {
+    display: grid;
+    grid-column: 2;
+    grid-row: 1 / 4;
+    justify-content: center;
+    background-color: gainsboro;
+    border-radius: 2%;
+    padding-top: 20%;
+    padding-bottom: 40%;
+}
+
+.placeholder {
+    padding-top: 5%;
+}
+
+.gallery2 {
+    display: grid;
+    grid-column: 3;
+    grid-row: 1 / 4;
+    justify-content: center;
+    background-color: gainsboro;
+    border-radius: 2%;
+    padding-top: 20%;
+    padding-bottom: 40%;
+}
+
+.gallery3 {
+    display: grid;
+    grid-column: 4;
+    grid-row: 1 / 4;
+    justify-content: center;
+    background-color: gainsboro;
+    border-radius: 2%;
+    padding-top: 20%;
+    padding-bottom: 40%;
+}
+
+.gallery4 {
+    display: grid;
+    grid-column: 5;
+    grid-row: 1 / 4;
+    justify-content: center;
+    background-color: gainsboro;
+    border-radius: 2%;
+    padding-top: 20%;
+    padding-bottom: 40%;
+}
+
+.contact-info {
+    position: absolute;
+    padding-bottom: 200px;
+    padding-left: 200px;;
+}
+
+.footer {
+    background-color: white;
+    text-align: center;
+}
+
+.product-text {
+    padding-top: 5%; 
+    padding-bottom: 3%;
+    font-size: 50px;
+}
+
+.collection1 {
+    background-color: rgb(49, 48, 48);
+    grid-row: 4;
+    grid-column: 2 / 4;
+}
+
+.collection1 h1 {
+    color: white;
+}
+
+.collection1 p {
+    color: gray;
+}
+
+.p-button {
+    border: 1px solid black;
+}
+
+.collection2 {
+    background-color: rgb(49, 48, 48);
+    grid-row: 4;
+    grid-column: 4 / 6;
+}
+
+.collection2 h1 {
+    color: white;
+}
+
+.collection2 {
+    color: gray;
+}
+
+.map {
+    position: relative;
+}
